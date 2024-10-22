@@ -20,5 +20,7 @@ nav:
   - Guides: 
       - Home: guides/guideHome.md
       - Guides:
+        - Getting Started: guides/Basics/FirstModification.md
         - Beginner:
-          - First Mod: guides/Basics/FirstModification.md
+          - Basic Knowledge: guides/Beginner/BasicKnowledge.md
+          - Resources: guides/Beginner/Resources.md
