@@ -1,0 +1,24 @@
+site_name: MCPReborn Wiki
+site_url: https://mydomain.org/mysite
+repo_url: https://github.com/archerv123456/MCPRWiki
+extra_css:
+  - css/index.css
+theme:
+  font:
+    code: Source Code Pro
+  name: material
+  palette:
+    scheme: slate
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+nav:
+  - Home: index.md
+  - Guides: 
+      - Home: guides/guideHome.md
+      - Guides:
+        - Beginner:
+          - First Mod: guides/Basics/FirstModification.md
