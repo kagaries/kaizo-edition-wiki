@@ -2,14 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mydomain.org/mysite/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/guides/guideHome/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/guides/Basics/FirstModification/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/guides/Beginner/BasicKnowledge/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/guides/Beginner/Resources/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/reference/home/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/reference/Minecraft/Advancements/Advancement/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/reference/Minecraft/Advancements/AdvancementHolder/</loc>
+         <lastmod>2024-10-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/reference/Minecraft/Advancements/Critereon/AbstractCriterionTriggerInstance/</loc>
+         <lastmod>2024-10-23</lastmod>
     </url>
 </urlset>
