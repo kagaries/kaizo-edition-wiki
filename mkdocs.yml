@@ -24,6 +24,7 @@ nav:
         - Beginner:
           - Basic Knowledge: guides/Beginner/BasicKnowledge.md
           - Resources: guides/Beginner/Resources.md
+          - Basic Items: guides/Beginner/Items.md
   - Reference:
     - Home: reference/home.md
     - Minecraft:
