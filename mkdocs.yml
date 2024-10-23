@@ -30,7 +30,8 @@ nav:
     - Minecraft:
       - Advancement:
         - Advancement: reference/Minecraft/Advancement/Advancement.md
-        - Advancement Holder: reference/Minecraft/Advancement/AdvancementHolder.md
+        - AdvancementHolder: reference/Minecraft/Advancement/AdvancementHolder.md
+        - AdvancementNode: reference/Minecraft/Advancement/AdvancementNode.md
         - Critereon:
           - AbstractCriterionTriggerInstance: reference/Minecraft/Advancement/Critereon/AbstractCriterionTriggerInstance.md
       - Client:
