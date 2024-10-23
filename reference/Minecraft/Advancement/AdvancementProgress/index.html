@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://mydomain.org/mysite/reference/Minecraft/Client/Profiling/ClientMetricsSamplersProvider/">
+        <link rel="canonical" href="https://mydomain.org/mysite/reference/Minecraft/Advancement/AdvancementProgress/">
       
       
-        <link rel="prev" href="../../Player/AbstractClientPlayer/">
+        <link rel="prev" href="../AdvancementNode/">
       
       
-        <link rel="next" href="../../Quickplay/QuickPlay/">
+        <link rel="next" href="../Critereon/AbstractCriterionTriggerInstance/">
       
       
-      <link rel="icon" href="../../../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
     
     
       
-        <title>ClientMetricsSamplersProvider - MCPReborn Wiki</title>
+        <title>AdvancementProgress - MCPReborn Wiki</title>
       
     
     
-      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.0253249f.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.0253249f.min.css">
       
         
-        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -54,9 +54,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../../../css/index.css">
+      <link rel="stylesheet" href="../../../../css/index.css">
     
-    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -79,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#advancement-progress" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -89,7 +94,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../../.." title="MCPReborn Wiki" class="md-header__button md-logo" aria-label="MCPReborn Wiki" data-md-component="logo">
+    <a href="../../../.." title="MCPReborn Wiki" class="md-header__button md-logo" aria-label="MCPReborn Wiki" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -109,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ClientMetricsSamplersProvider
+              AdvancementProgress
             
           </span>
         </div>
@@ -190,7 +195,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../.." class="md-tabs__link">
+      <a href="../../../.." class="md-tabs__link">
         
   
     
@@ -209,7 +214,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../../guides/guideHome/" class="md-tabs__link">
+        <a href="../../../../guides/guideHome/" class="md-tabs__link">
           
   
     
@@ -231,7 +236,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../../../home/" class="md-tabs__link">
+        <a href="../../../home/" class="md-tabs__link">
           
   
     
@@ -266,7 +271,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../../.." title="MCPReborn Wiki" class="md-nav__button md-logo" aria-label="MCPReborn Wiki" data-md-component="logo">
+    <a href="../../../.." title="MCPReborn Wiki" class="md-nav__button md-logo" aria-label="MCPReborn Wiki" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -296,7 +301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../.." class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -362,7 +367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../guides/guideHome/" class="md-nav__link">
+      <a href="../../../../guides/guideHome/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -429,7 +434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../guides/Basics/FirstModification/" class="md-nav__link">
+      <a href="../../../../guides/Basics/FirstModification/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -498,7 +503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../guides/Beginner/BasicKnowledge/" class="md-nav__link">
+      <a href="../../../../guides/Beginner/BasicKnowledge/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -519,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../guides/Beginner/Resources/" class="md-nav__link">
+      <a href="../../../../guides/Beginner/Resources/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -540,7 +545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../guides/Beginner/Items/" class="md-nav__link">
+      <a href="../../../../guides/Beginner/Items/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -639,7 +644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../home/" class="md-nav__link">
+      <a href="../../../home/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -708,8 +713,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -731,11 +738,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" checked>
         
           
           <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
@@ -749,7 +756,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_2_1">
             <span class="md-nav__icon md-icon"></span>
             Advancement
@@ -763,7 +770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Advancement/Advancement/" class="md-nav__link">
+      <a href="../Advancement/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -784,7 +791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Advancement/AdvancementHolder/" class="md-nav__link">
+      <a href="../AdvancementHolder/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -805,7 +812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Advancement/AdvancementNode/" class="md-nav__link">
+      <a href="../AdvancementNode/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -823,10 +830,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../Advancement/AdvancementProgress/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    AdvancementProgress
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -835,6 +862,188 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#constructer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Constructer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#constructer-public" class="md-nav__link">
+    <span class="md-ellipsis">
+      Constructer (Public)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update" class="md-nav__link">
+    <span class="md-ellipsis">
+      update
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#isdone" class="md-nav__link">
+    <span class="md-ellipsis">
+      isDone
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hasprogress" class="md-nav__link">
+    <span class="md-ellipsis">
+      hasProgress
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grantprogress" class="md-nav__link">
+    <span class="md-ellipsis">
+      grantProgress
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revokeprogress" class="md-nav__link">
+    <span class="md-ellipsis">
+      revokeProgress
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tostring" class="md-nav__link">
+    <span class="md-ellipsis">
+      toString
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#serializetonetwork" class="md-nav__link">
+    <span class="md-ellipsis">
+      serializeToNetwork
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fromnetwork" class="md-nav__link">
+    <span class="md-ellipsis">
+      fromNetwork
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getcriterion" class="md-nav__link">
+    <span class="md-ellipsis">
+      getCriterion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iscriteriondone" class="md-nav__link">
+    <span class="md-ellipsis">
+      isCriterionDone
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getpercent" class="md-nav__link">
+    <span class="md-ellipsis">
+      getPercent
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getprogresstext" class="md-nav__link">
+    <span class="md-ellipsis">
+      getProgressText
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#countcompletedrequirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      countCompletedRequirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getremainingcriteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      getRemainingCriteria
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getcompletedcriteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      getCompletedCriteria
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getfirstprogressdate" class="md-nav__link">
+    <span class="md-ellipsis">
+      getFirstProgressDate
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -891,7 +1100,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Advancement/Critereon/AbstractCriterionTriggerInstance/" class="md-nav__link">
+      <a href="../Critereon/AbstractCriterionTriggerInstance/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -925,10 +1134,8 @@
                 
   
   
-    
   
   
-  
     
     
       
@@ -976,11 +1183,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
         
           
           <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
@@ -994,7 +1201,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2_2">
             <span class="md-nav__icon md-icon"></span>
             Client
@@ -1098,7 +1305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Animation/Definitions/CamelAnimation/" class="md-nav__link">
+      <a href="../../Client/Animation/Definitions/CamelAnimation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1127,7 +1334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Animation/AnimationChannel/" class="md-nav__link">
+      <a href="../../Client/Animation/AnimationChannel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1246,7 +1453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Color/Block/BlockColor/" class="md-nav__link">
+      <a href="../../Client/Color/Block/BlockColor/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1319,7 +1526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Color/Item/ItemColor/" class="md-nav__link">
+      <a href="../../Client/Color/Item/ItemColor/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1512,7 +1719,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Components/DebugChart/AbstractDebugChart/" class="md-nav__link">
+      <a href="../../Client/GUI/Components/DebugChart/AbstractDebugChart/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1585,7 +1792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Components/Events/AbstractContainerEventHandler/" class="md-nav__link">
+      <a href="../../Client/GUI/Components/Events/AbstractContainerEventHandler/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1658,7 +1865,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Components/Spectator/SpectatorGui/" class="md-nav__link">
+      <a href="../../Client/GUI/Components/Spectator/SpectatorGui/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1731,7 +1938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Components/Tabs/GridLayoutTab/" class="md-nav__link">
+      <a href="../../Client/GUI/Components/Tabs/GridLayoutTab/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1804,7 +2011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Components/Toasts/AdvancementToast/" class="md-nav__link">
+      <a href="../../Client/GUI/Components/Toasts/AdvancementToast/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1833,7 +2040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Components/AbstractButton/" class="md-nav__link">
+      <a href="../../Client/GUI/Components/AbstractButton/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1954,7 +2161,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Font/Glyphs/BakedGlyph/" class="md-nav__link">
+      <a href="../../Client/GUI/Font/Glyphs/BakedGlyph/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2027,7 +2234,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Font/Providers/BitmapProvider/" class="md-nav__link">
+      <a href="../../Client/GUI/Font/Providers/BitmapProvider/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2056,7 +2263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Font/AllMissingGlyphProvider/" class="md-nav__link">
+      <a href="../../Client/GUI/Font/AllMissingGlyphProvider/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2129,7 +2336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Layouts/AbstractLayout/" class="md-nav__link">
+      <a href="../../Client/GUI/Layouts/AbstractLayout/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2202,7 +2409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Narration/NarratableEntry/" class="md-nav__link">
+      <a href="../../Client/GUI/Narration/NarratableEntry/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2275,7 +2482,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Navigation/CommonInputs/" class="md-nav__link">
+      <a href="../../Client/GUI/Navigation/CommonInputs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2416,7 +2623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Achievement/StatsScreen/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Achievement/StatsScreen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2489,7 +2696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Advancements/AdvancementsScreen/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Advancements/AdvancementsScreen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2562,7 +2769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Controls/ControlsScreen/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Controls/ControlsScreen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2635,7 +2842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Debug/GameModeSwitcherScreen/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Debug/GameModeSwitcherScreen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2754,7 +2961,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Inventory/Tooltip/BelowOrAboveWidgetTooltipPositioner/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Inventory/Tooltip/BelowOrAboveWidgetTooltipPositioner/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2783,7 +2990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Inventory/AbstractCommandBlockEditScreen/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Inventory/AbstractCommandBlockEditScreen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2856,7 +3063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Multiplayer/JoinMultiplayerScreen/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Multiplayer/JoinMultiplayerScreen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2929,7 +3136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Packs/PackSelectionModel/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Packs/PackSelectionModel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3002,7 +3209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/RecipeBook/AbstractFurnaceRecipeBookComponent/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/RecipeBook/AbstractFurnaceRecipeBookComponent/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3075,7 +3282,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Reporting/AbstractReportScreen/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Reporting/AbstractReportScreen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3148,7 +3355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Social/PlayerEntry/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Social/PlayerEntry/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3221,7 +3428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/Telemetry/TelemetryEventWidget/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/Telemetry/TelemetryEventWidget/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3294,7 +3501,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/WorldSelection/ConfirmExperimentalFeaturesScreen/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/WorldSelection/ConfirmExperimentalFeaturesScreen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3323,7 +3530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Screens/AccessibilityOnboardingScreen/" class="md-nav__link">
+      <a href="../../Client/GUI/Screens/AccessibilityOnboardingScreen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3442,7 +3649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Spectator/Categories/SpectatorPage/" class="md-nav__link">
+      <a href="../../Client/GUI/Spectator/Categories/SpectatorPage/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3471,7 +3678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/Spectator/PlayerMenuItem/" class="md-nav__link">
+      <a href="../../Client/GUI/Spectator/PlayerMenuItem/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3500,7 +3707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GUI/ComponentPath/" class="md-nav__link">
+      <a href="../../Client/GUI/ComponentPath/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3573,7 +3780,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Main/GameConfig/" class="md-nav__link">
+      <a href="../../Client/Main/GameConfig/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3694,7 +3901,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Model/Dragon/DragonHeadModel/" class="md-nav__link">
+      <a href="../../Client/Model/Dragon/DragonHeadModel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3813,7 +4020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Model/GEOM/Builders/CubeDefinition/" class="md-nav__link">
+      <a href="../../Client/Model/GEOM/Builders/CubeDefinition/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3842,7 +4049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Model/GEOM/EntityModelSet/" class="md-nav__link">
+      <a href="../../Client/Model/GEOM/EntityModelSet/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3871,7 +4078,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Model/AbstractZombieModel/" class="md-nav__link">
+      <a href="../../Client/Model/AbstractZombieModel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4040,7 +4247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Multiplayer/Chat/Report/AbuseReportSender/" class="md-nav__link">
+      <a href="../../Client/Multiplayer/Chat/Report/AbuseReportSender/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4069,7 +4276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Multiplayer/Chat/ChatListener/" class="md-nav__link">
+      <a href="../../Client/Multiplayer/Chat/ChatListener/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4142,7 +4349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Multiplayer/Prediction/BlockStatePredictionHandler/" class="md-nav__link">
+      <a href="../../Client/Multiplayer/Prediction/BlockStatePredictionHandler/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4215,7 +4422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Multiplayer/Resolver/AddressCheck/" class="md-nav__link">
+      <a href="../../Client/Multiplayer/Resolver/AddressCheck/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4244,7 +4451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Multiplayer/AccountProfileKeyPairManager/" class="md-nav__link">
+      <a href="../../Client/Multiplayer/AccountProfileKeyPairManager/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4317,7 +4524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Particle/AshParticle/" class="md-nav__link">
+      <a href="../../Client/Particle/AshParticle/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4436,7 +4643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Player/Inventory/Hotbar/" class="md-nav__link">
+      <a href="../../Client/Player/Inventory/Hotbar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4465,7 +4672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Player/AbstractClientPlayer/" class="md-nav__link">
+      <a href="../../Client/Player/AbstractClientPlayer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4491,10 +4698,8 @@
                 
   
   
-    
   
   
-  
     
     
       
@@ -4508,11 +4713,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2_9" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2_9" >
         
           
           <label class="md-nav__link" for="__nav_3_2_2_9" id="__nav_3_2_2_9_label" tabindex="0">
@@ -4526,7 +4731,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_2_9_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_2_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2_2_9">
             <span class="md-nav__icon md-icon"></span>
             Profiling
@@ -4537,17 +4742,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Client/Profiling/ClientMetricsSamplersProvider/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4556,7 +4754,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -4621,7 +4818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Quickplay/QuickPlay/" class="md-nav__link">
+      <a href="../../Client/Quickplay/QuickPlay/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4846,7 +5043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Block/Model/MultiPart/AndCondition/" class="md-nav__link">
+      <a href="../../Client/Renderer/Block/Model/MultiPart/AndCondition/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4875,7 +5072,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Block/Model/BakedQuad/" class="md-nav__link">
+      <a href="../../Client/Renderer/Block/Model/BakedQuad/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4904,7 +5101,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Block/BlockModelShaper/" class="md-nav__link">
+      <a href="../../Client/Renderer/Block/BlockModelShaper/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4977,7 +5174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/BlockEntity/BannerRenderer/" class="md-nav__link">
+      <a href="../../Client/Renderer/BlockEntity/BannerRenderer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5050,7 +5247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Chunk/RenderChunk/" class="md-nav__link">
+      <a href="../../Client/Renderer/Chunk/RenderChunk/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5123,7 +5320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Culling/Frustum/" class="md-nav__link">
+      <a href="../../Client/Renderer/Culling/Frustum/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5196,7 +5393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Debug/BeeDebugRenderer/" class="md-nav__link">
+      <a href="../../Client/Renderer/Debug/BeeDebugRenderer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5317,7 +5514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Entity/Layers/ArrowLayer/" class="md-nav__link">
+      <a href="../../Client/Renderer/Entity/Layers/ArrowLayer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5390,7 +5587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Entity/Player/PlayerRenderer/" class="md-nav__link">
+      <a href="../../Client/Renderer/Entity/Player/PlayerRenderer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5419,7 +5616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Entity/AbstractHorseRenderer/" class="md-nav__link">
+      <a href="../../Client/Renderer/Entity/AbstractHorseRenderer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5492,7 +5689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Item/ClampedItemPropertyFunction/" class="md-nav__link">
+      <a href="../../Client/Renderer/Item/ClampedItemPropertyFunction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5657,7 +5854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Texture/Atlas/Sources/DirectoryLister/" class="md-nav__link">
+      <a href="../../Client/Renderer/Texture/Atlas/Sources/DirectoryLister/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5686,7 +5883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Texture/Atlas/SpriteResourceLoader/" class="md-nav__link">
+      <a href="../../Client/Renderer/Texture/Atlas/SpriteResourceLoader/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5715,7 +5912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/Texture/AbstractTexture/" class="md-nav__link">
+      <a href="../../Client/Renderer/Texture/AbstractTexture/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5744,7 +5941,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Renderer/BiomeColors/" class="md-nav__link">
+      <a href="../../Client/Renderer/BiomeColors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5869,7 +6066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Resources/Langague/ClientLanguage/" class="md-nav__link">
+      <a href="../../Client/Resources/Langague/ClientLanguage/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5992,7 +6189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Resources/Metadata/Animation/AnimationFrame/" class="md-nav__link">
+      <a href="../../Client/Resources/Metadata/Animation/AnimationFrame/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6065,7 +6262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Resources/Metadata/GUI/GuiMetadataSection/" class="md-nav__link">
+      <a href="../../Client/Resources/Metadata/GUI/GuiMetadataSection/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6138,7 +6335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Resources/Metadata/Langague/LanguageMetadataSection/" class="md-nav__link">
+      <a href="../../Client/Resources/Metadata/Langague/LanguageMetadataSection/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6211,7 +6408,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Resources/Metadata/Texture/TextureMetadataSection/" class="md-nav__link">
+      <a href="../../Client/Resources/Metadata/Texture/TextureMetadataSection/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6292,7 +6489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Resources/Model/AtlasSet/" class="md-nav__link">
+      <a href="../../Client/Resources/Model/AtlasSet/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6365,7 +6562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Resources/Sounds/AbstractSoundInstance/" class="md-nav__link">
+      <a href="../../Client/Resources/Sounds/AbstractSoundInstance/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6394,7 +6591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Resources/ClientPackSource/" class="md-nav__link">
+      <a href="../../Client/Resources/ClientPackSource/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6467,7 +6664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../SearchTree/FullTextSearchTree/" class="md-nav__link">
+      <a href="../../Client/SearchTree/FullTextSearchTree/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6540,7 +6737,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Server/IntegratedPlayerList/" class="md-nav__link">
+      <a href="../../Client/Server/IntegratedPlayerList/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6613,7 +6810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Sounds/AudioStream/" class="md-nav__link">
+      <a href="../../Client/Sounds/AudioStream/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6732,7 +6929,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Telemetry/Events/AggregatedTelemetryEvent/" class="md-nav__link">
+      <a href="../../Client/Telemetry/Events/AggregatedTelemetryEvent/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6761,7 +6958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Telemetry/ClientTelemetryManager/" class="md-nav__link">
+      <a href="../../Client/Telemetry/ClientTelemetryManager/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6834,7 +7031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Tutorial/BundleTutorial/" class="md-nav__link">
+      <a href="../../Client/Tutorial/BundleTutorial/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6863,7 +7060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../AttackIndicatorStatus/" class="md-nav__link">
+      <a href="../../Client/AttackIndicatorStatus/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7055,7 +7252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/Blaze3d/Audio/Channel/" class="md-nav__link">
+      <a href="../../../Mojang/Blaze3d/Audio/Channel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7128,7 +7325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/Blaze3d/Font/SpaceProvider/" class="md-nav__link">
+      <a href="../../../Mojang/Blaze3d/Font/SpaceProvider/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7201,7 +7398,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/Blaze3d/Pipeline/MainTarget/" class="md-nav__link">
+      <a href="../../../Mojang/Blaze3d/Pipeline/MainTarget/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7274,7 +7471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/Blaze3d/Platform/ClipboardManager/" class="md-nav__link">
+      <a href="../../../Mojang/Blaze3d/Platform/ClipboardManager/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7347,7 +7544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/Blaze3d/Shaders/GlslPreprocessor.md" class="md-nav__link">
+      <a href="../../../Mojang/Blaze3d/Shaders/GlslPreprocessor.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7420,7 +7617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/Blaze3d/Shaders/AbstractUniform/" class="md-nav__link">
+      <a href="../../../Mojang/Blaze3d/Shaders/AbstractUniform/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7493,7 +7690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/Blaze3d/Systems/RenderSystem/" class="md-nav__link">
+      <a href="../../../Mojang/Blaze3d/Systems/RenderSystem/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7566,7 +7763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/Blaze3d/Vertex/BufferBuilder/" class="md-nav__link">
+      <a href="../../../Mojang/Blaze3d/Vertex/BufferBuilder/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7595,7 +7792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/Blaze3d/Blaze3D/" class="md-nav__link">
+      <a href="../../../Mojang/Blaze3d/Blaze3D/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7668,7 +7865,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/Math/Axis/" class="md-nav__link">
+      <a href="../../../Mojang/Math/Axis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7741,7 +7938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Mojang/RealmsClient/RealmsAvailability/" class="md-nav__link">
+      <a href="../../../Mojang/RealmsClient/RealmsAvailability/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7825,7 +8022,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../MCP/Start/" class="md-nav__link">
+      <a href="../../../MCP/Start/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7871,6 +8068,178 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#constructer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Constructer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#constructer-public" class="md-nav__link">
+    <span class="md-ellipsis">
+      Constructer (Public)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update" class="md-nav__link">
+    <span class="md-ellipsis">
+      update
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#isdone" class="md-nav__link">
+    <span class="md-ellipsis">
+      isDone
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hasprogress" class="md-nav__link">
+    <span class="md-ellipsis">
+      hasProgress
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grantprogress" class="md-nav__link">
+    <span class="md-ellipsis">
+      grantProgress
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revokeprogress" class="md-nav__link">
+    <span class="md-ellipsis">
+      revokeProgress
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tostring" class="md-nav__link">
+    <span class="md-ellipsis">
+      toString
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#serializetonetwork" class="md-nav__link">
+    <span class="md-ellipsis">
+      serializeToNetwork
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fromnetwork" class="md-nav__link">
+    <span class="md-ellipsis">
+      fromNetwork
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getcriterion" class="md-nav__link">
+    <span class="md-ellipsis">
+      getCriterion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iscriteriondone" class="md-nav__link">
+    <span class="md-ellipsis">
+      isCriterionDone
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getpercent" class="md-nav__link">
+    <span class="md-ellipsis">
+      getPercent
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getprogresstext" class="md-nav__link">
+    <span class="md-ellipsis">
+      getProgressText
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#countcompletedrequirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      countCompletedRequirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getremainingcriteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      getRemainingCriteria
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getcompletedcriteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      getCompletedCriteria
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getfirstprogressdate" class="md-nav__link">
+    <span class="md-ellipsis">
+      getFirstProgressDate
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -7888,9 +8257,177 @@
   
 
 
-  <h1>ClientMetricsSamplersProvider</h1>
-
-
+<h1 id="advancement-progress">Advancement Progress</h1>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">AdvancementProgress</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">Comparable</span><span class="o">&lt;</span><span class="n">AdvancementProgress</span><span class="o">&gt;</span>
+</span></code></pre></div>
+<h3 id="constructer">Constructer</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">private</span><span class="w"> </span><span class="nf">AdvancementProgress</span><span class="p">(</span><span class="n">Map</span><span class="o">&lt;</span><span class="n">String</span><span class="p">,</span><span class="w"> </span><span class="n">CriterionProgress</span><span class="o">&gt;</span><span class="w"> </span><span class="n">p_144358_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p_144358_</span><span class="p">;</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="constructer-public">Constructer (Public)</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">public</span><span class="w"> </span><span class="nf">AdvancementProgress</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Maps</span><span class="p">.</span><span class="na">newHashMap</span><span class="p">();</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="update">update</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">update</span><span class="p">(</span><span class="n">AdvancementRequirements</span><span class="w"> </span><span class="n">p_300626_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="n">Set</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p_300626_</span><span class="p">.</span><span class="na">names</span><span class="p">();</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">entrySet</span><span class="p">().</span><span class="na">removeIf</span><span class="p">((</span><span class="n">p_8203_</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="o">!</span><span class="n">set</span><span class="p">.</span><span class="na">contains</span><span class="p">(</span><span class="n">p_8203_</span><span class="p">.</span><span class="na">getKey</span><span class="p">());</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="p">});</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">set</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">putIfAbsent</span><span class="p">(</span><span class="n">s</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">CriterionProgress</span><span class="p">());</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">requirements</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p_300626_</span><span class="p">;</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="isdone">isDone</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">isDone</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">requirements</span><span class="p">.</span><span class="na">test</span><span class="p">(</span><span class="k">this</span><span class="p">::</span><span class="n">isCriterionDone</span><span class="p">);</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="hasprogress">hasProgress</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">hasProgress</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="n">CriterionProgress</span><span class="w"> </span><span class="n">criterionprogress</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">values</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">criterionprogress</span><span class="p">.</span><span class="na">isDone</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="grantprogress">grantProgress</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">grantProgress</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">p_8197_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">    </span><span class="n">CriterionProgress</span><span class="w"> </span><span class="n">criterionprogress</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">p_8197_</span><span class="p">);</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">criterionprogress</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="o">!</span><span class="n">criterionprogress</span><span class="p">.</span><span class="na">isDone</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">        </span><span class="n">criterionprogress</span><span class="p">.</span><span class="na">grant</span><span class="p">();</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="revokeprogress">revokeProgress</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">revokeProgress</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">p_8210_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">    </span><span class="n">CriterionProgress</span><span class="w"> </span><span class="n">criterionprogress</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">p_8210_</span><span class="p">);</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">criterionprogress</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">criterionprogress</span><span class="p">.</span><span class="na">isDone</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">        </span><span class="n">criterionprogress</span><span class="p">.</span><span class="na">revoke</span><span class="p">();</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="tostring">toString</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">toString</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="s">&quot;AdvancementProgress{criteria=&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;, requirements=&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">requirements</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;}&quot;</span><span class="p">;</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="serializetonetwork">serializeToNetwork</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">serializeToNetwork</span><span class="p">(</span><span class="n">FriendlyByteBuf</span><span class="w"> </span><span class="n">p_8205_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">    </span><span class="n">p_8205_</span><span class="p">.</span><span class="na">writeMap</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">,</span><span class="w"> </span><span class="n">FriendlyByteBuf</span><span class="p">::</span><span class="n">writeUtf</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">p_144360_</span><span class="p">,</span><span class="w"> </span><span class="n">p_144361_</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="w">        </span><span class="n">p_144361_</span><span class="p">.</span><span class="na">serializeToNetwork</span><span class="p">(</span><span class="n">p_144360_</span><span class="p">);</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="w">    </span><span class="p">});</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="fromnetwork">fromNetwork</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">AdvancementProgress</span><span class="w"> </span><span class="nf">fromNetwork</span><span class="p">(</span><span class="n">FriendlyByteBuf</span><span class="w"> </span><span class="n">p_8212_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="w">    </span><span class="n">Map</span><span class="o">&lt;</span><span class="n">String</span><span class="p">,</span><span class="w"> </span><span class="n">CriterionProgress</span><span class="o">&gt;</span><span class="w"> </span><span class="n">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p_8212_</span><span class="p">.</span><span class="na">readMap</span><span class="p">(</span><span class="n">FriendlyByteBuf</span><span class="p">::</span><span class="n">readUtf</span><span class="p">,</span><span class="w"> </span><span class="n">CriterionProgress</span><span class="p">::</span><span class="n">fromNetwork</span><span class="p">);</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">AdvancementProgress</span><span class="p">(</span><span class="n">map</span><span class="p">);</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="getcriterion">getCriterion</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="nd">@Nullable</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="kd">public</span><span class="w"> </span><span class="n">CriterionProgress</span><span class="w"> </span><span class="nf">getCriterion</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">p_8215_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">p_8215_</span><span class="p">);</span>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="iscriteriondone">isCriterionDone</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kd">private</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">isCriterionDone</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">p_301316_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="w">    </span><span class="n">CriterionProgress</span><span class="w"> </span><span class="n">criterionprogress</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">getCriterion</span><span class="p">(</span><span class="n">p_301316_</span><span class="p">);</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">criterionprogress</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">criterionprogress</span><span class="p">.</span><span class="na">isDone</span><span class="p">();</span>
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="getpercent">getPercent</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">float</span><span class="w"> </span><span class="nf">getPercent</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">isEmpty</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="mf">0.0F</span><span class="p">;</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="w">        </span><span class="kt">float</span><span class="w"> </span><span class="n">f</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)</span><span class="k">this</span><span class="p">.</span><span class="na">requirements</span><span class="p">.</span><span class="na">size</span><span class="p">();</span>
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="w">        </span><span class="kt">float</span><span class="w"> </span><span class="n">f1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)</span><span class="k">this</span><span class="p">.</span><span class="na">countCompletedRequirements</span><span class="p">();</span>
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">f1</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">f</span><span class="p">;</span>
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="getprogresstext">getProgressText</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="nd">@Nullable</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="kd">public</span><span class="w"> </span><span class="n">Component</span><span class="w"> </span><span class="nf">getProgressText</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">isEmpty</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">requirements</span><span class="p">.</span><span class="na">size</span><span class="p">();</span>
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+</span><span id="__span-14-9"><a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-10"><a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a><span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">countCompletedRequirements</span><span class="p">();</span>
+</span><span id="__span-14-11"><a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">Component</span><span class="p">.</span><span class="na">translatable</span><span class="p">(</span><span class="s">&quot;advancements.progress&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">j</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="p">);</span>
+</span><span id="__span-14-12"><a id="__codelineno-14-12" name="__codelineno-14-12" href="#__codelineno-14-12"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-14-13"><a id="__codelineno-14-13" name="__codelineno-14-13" href="#__codelineno-14-13"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-14-14"><a id="__codelineno-14-14" name="__codelineno-14-14" href="#__codelineno-14-14"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="countcompletedrequirements">countCompletedRequirements</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="kd">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">countCompletedRequirements</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">requirements</span><span class="p">.</span><span class="na">count</span><span class="p">(</span><span class="k">this</span><span class="p">::</span><span class="n">isCriterionDone</span><span class="p">);</span>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="getremainingcriteria">getRemainingCriteria</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="kd">public</span><span class="w"> </span><span class="n">Iterable</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">getRemainingCriteria</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="w">    </span><span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">list</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Lists</span><span class="p">.</span><span class="na">newArrayList</span><span class="p">();</span>
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>
+</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a><span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="n">Map</span><span class="p">.</span><span class="na">Entry</span><span class="o">&lt;</span><span class="n">String</span><span class="p">,</span><span class="w"> </span><span class="n">CriterionProgress</span><span class="o">&gt;</span><span class="w"> </span><span class="n">entry</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">entrySet</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a><span class="w">         </span><span class="n">f</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">entry</span><span class="p">.</span><span class="na">getValue</span><span class="p">().</span><span class="na">isDone</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="w">            </span><span class="n">list</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">entry</span><span class="p">.</span><span class="na">getKey</span><span class="p">());</span>
+</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-16-8"><a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-16-9"><a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a>
+</span><span id="__span-16-10"><a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">list</span><span class="p">;</span>
+</span><span id="__span-16-11"><a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="getcompletedcriteria">getCompletedCriteria</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="kd">public</span><span class="w"> </span><span class="n">Iterable</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">getCompletedCriteria</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="w">    </span><span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">list</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Lists</span><span class="p">.</span><span class="na">newArrayList</span><span class="p">();</span>
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>
+</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="n">Map</span><span class="p">.</span><span class="na">Entry</span><span class="o">&lt;</span><span class="n">String</span><span class="p">,</span><span class="w"> </span><span class="n">CriterionProgress</span><span class="o">&gt;</span><span class="w"> </span><span class="n">entry</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">entrySet</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-17-5"><a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">entry</span><span class="p">.</span><span class="na">getValue</span><span class="p">().</span><span class="na">isDone</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-17-6"><a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a><span class="w">            </span><span class="n">list</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">entry</span><span class="p">.</span><span class="na">getKey</span><span class="p">());</span>
+</span><span id="__span-17-7"><a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-17-8"><a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-17-9"><a id="__codelineno-17-9" name="__codelineno-17-9" href="#__codelineno-17-9"></a>
+</span><span id="__span-17-10"><a id="__codelineno-17-10" name="__codelineno-17-10" href="#__codelineno-17-10"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">list</span><span class="p">;</span>
+</span><span id="__span-17-11"><a id="__codelineno-17-11" name="__codelineno-17-11" href="#__codelineno-17-11"></a><span class="p">}</span>
+</span></code></pre></div>
+<h3 id="getfirstprogressdate">getFirstProgressDate</h3>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="nd">@Nullable</span>
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="kd">public</span><span class="w"> </span><span class="n">Instant</span><span class="w"> </span><span class="nf">getFirstProgressDate</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">criteria</span><span class="p">.</span><span class="na">values</span><span class="p">().</span><span class="na">stream</span><span class="p">().</span><span class="na">map</span><span class="p">(</span><span class="n">CriterionProgress</span><span class="p">::</span><span class="n">getObtained</span><span class="p">).</span><span class="na">filter</span><span class="p">(</span><span class="n">Objects</span><span class="p">::</span><span class="n">nonNull</span><span class="p">).</span><span class="na">min</span><span class="p">(</span><span class="n">Comparator</span><span class="p">.</span><span class="na">naturalOrder</span><span class="p">()).</span><span class="na">orElse</span><span class="p">((</span><span class="n">Instant</span><span class="p">)</span><span class="kc">null</span><span class="p">);</span>
+</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="p">}</span>
+</span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>
+</span><span id="__span-18-6"><a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">compareTo</span><span class="p">(</span><span class="n">AdvancementProgress</span><span class="w"> </span><span class="n">p_8195_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-18-7"><a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a><span class="w">    </span><span class="n">Instant</span><span class="w"> </span><span class="n">instant</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">getFirstProgressDate</span><span class="p">();</span>
+</span><span id="__span-18-8"><a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a><span class="w">    </span><span class="n">Instant</span><span class="w"> </span><span class="n">instant1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p_8195_</span><span class="p">.</span><span class="na">getFirstProgressDate</span><span class="p">();</span>
+</span><span id="__span-18-9"><a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">instant</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">instant1</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-18-10"><a id="__codelineno-18-10" name="__codelineno-18-10" href="#__codelineno-18-10"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+</span><span id="__span-18-11"><a id="__codelineno-18-11" name="__codelineno-18-11" href="#__codelineno-18-11"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">instant</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">instant1</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-18-12"><a id="__codelineno-18-12" name="__codelineno-18-12" href="#__codelineno-18-12"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span><span id="__span-18-13"><a id="__codelineno-18-13" name="__codelineno-18-13" href="#__codelineno-18-13"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-18-14"><a id="__codelineno-18-14" name="__codelineno-18-14" href="#__codelineno-18-14"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">instant</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">instant1</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">instant</span><span class="p">.</span><span class="na">compareTo</span><span class="p">(</span><span class="n">instant1</span><span class="p">);</span>
+</span><span id="__span-18-15"><a id="__codelineno-18-15" name="__codelineno-18-15" href="#__codelineno-18-15"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-18-16"><a id="__codelineno-18-16" name="__codelineno-18-16" href="#__codelineno-18-16"></a><span class="p">}</span>
+</span></code></pre></div>
 
 
 
@@ -7937,10 +8474,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "header.autohide"], "search": "../../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "header.autohide"], "search": "../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>
