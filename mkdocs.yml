@@ -17,17 +17,6 @@ theme:
     - navigation.indexes
 nav:
   - Home: index.md
-  - Reference:
-    - Home: reference/home.md
-    - Minecraft:
-      - Advancements:
-        - Main: reference/Minecraft/Advancements/main.md
-        - Advancement: reference/Minecraft/Advancements/Advancement.md
-        - Advancement Holder: reference/Minecraft/Advancements/AdvancementHolder.md
-        - Critereon:
-          - AbstractCriterionTriggerInstance: reference/Minecraft/Advancements/Critereon/AbstractCriterionTriggerInstance.md
-#   - MCP:
-#   - Mojang:
   - Guides: 
       - Home: guides/guideHome.md
       - Guides:
@@ -35,6 +24,16 @@ nav:
         - Beginner:
           - Basic Knowledge: guides/Beginner/BasicKnowledge.md
           - Resources: guides/Beginner/Resources.md
+  - Reference:
+    - Home: reference/home.md
+    - Minecraft:
+      - Advancements:
+        - Advancement: reference/Minecraft/Advancements/Advancement.md
+        - Advancement Holder: reference/Minecraft/Advancements/AdvancementHolder.md
+        - Critereon:
+          - AbstractCriterionTriggerInstance: reference/Minecraft/Advancements/Critereon/AbstractCriterionTriggerInstance.md
+#   - MCP:
+#   - Mojang:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
