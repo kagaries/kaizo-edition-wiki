@@ -36,12 +36,15 @@ The **Item** class comes with many functions for when you want an item to do som
 
 For example, the **PotionItem** class uses the use, useOn, and finishUsingItem functions for its functionality as a potion:
 
+This is used when an item is finished being used when holding down the RMB for the use duration.
 ```java
 public ItemStack finishUsingItem(ItemStack p_42984_, Level p_42985_, LivingEntity p_42986_)
 ```
+This is used when using it on a block, entity, or other object in the world.
 ```java
 public InteractionResult useOn(UseOnContext p_220235_)
 ```
+This is used when clicking RMB.
 ```java
 public InteractionResultHolder<ItemStack> use(Level p_42993_, Player p_42994_, InteractionHand p_42995_)
 ```

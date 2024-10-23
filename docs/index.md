@@ -1,3 +1,11 @@
+<head>
+<meta property="og:title" content="MCPReborn Wiki" />
+<meta property="og:description" content="A resource to help others get around Minecraft's code.">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://archerv123456.github.io/MCPRWiki/" />
+<!--<meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" /> !-->
+</head>
+
 # Welcome to the (Unoffical) MCPReborn wiki!
 
 Here you can find guides and resources to help you get started with Minecraft Coder Pack Reborn!
