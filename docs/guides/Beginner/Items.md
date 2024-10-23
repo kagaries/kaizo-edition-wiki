@@ -142,4 +142,72 @@ Now just add ```new Item.Properties()``` and the item will be finished:
 public static final Item TEST = registerItem("test", new SwordItem(Tiers.GOLD, 2, -1.5f, new Item.Properties()))
 ```
 
-Just follow how to create the item model above and now it should work!
+Just follow how to create the item model above (with tools its recommended to use ``"minecraft:item/handheld"`` rather then generated) and now it should work!
+
+## Tiers
+
+As said above, tiers are a enumeration that determine the stats of an item. Now you get to learn how to create your own!
+
+### Creating a Tier
+
+Starting off, head to the **Tiers** class and there you'll see some tiers already defined. A tier is made up of mining level, durability, mining speed, damage, enchantment value, and repair ingredient.
+
+Let's start off but defining the name of the tier we want:
+
+```java
+NETHERITE(4, 2031, 9.0F, 4.0F, 15, () -> {
+  return Ingredient.of(Items.NETHERITE_INGOT);
+}),
+EMERALD();
+```
+
+Now with that we can start defining the values the items given the tier will use, first we start off with the mining level:
+
+```java
+EMERALD(3);
+```
+
+Next is the durability, we can just set it to 1024:
+
+```java
+EMERALD(3, 1024);
+```
+
+Now for the mining speed:
+
+```java
+EMERALD(3, 1024, 8.0F);
+```
+
+The mining speed is a float, make sure you don't forget that.
+
+For the attack damage, we can just have 10.0F:
+
+```java
+EMERALD(3, 1024, 8.0F, 10.0F);
+```
+Now for the final 2 things, the second to last is the enchantmentValue:
+
+```java
+EMERALD(3, 1024, 8.0F, 10.0F, 23);
+```
+
+This just determines the chance for better enchants, and the cost of them.
+
+Finally, we set the repair material, this is just the material that is used when wanting to repair it in an anvil.
+
+```java
+EMERALD(3, 1024, 8.0F, 10.0F, 23, () -> {
+  return Ingredient.of(Items.EMERALD);
+});
+```
+
+To use it, just replace ``Tiers.GOLD`` with ``Tiers.EMERALD``.
+
+## Custom Textures
+
+If you followed the [Resources](./Resources.md) guide from before, all you'll need to do to add a texture is go to ```assets/minecraft/textures/items``` and add the texture there, after that, just replace ```"layer0": "minecraft:item/acacia_boat"``` with ```"layer0": "minecraft:item/TEXTURE_NAME"``` and it should work.
+
+## Closing
+
+Good job! You now know how to add fairly simple items to Minecraft.

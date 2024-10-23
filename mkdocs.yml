@@ -25,6 +25,8 @@ nav:
           - Basic Knowledge: guides/Beginner/BasicKnowledge.md
           - Resources: guides/Beginner/Resources.md
           - Basic Items: guides/Beginner/Items.md
+        - Intermediate:
+          - Data and You: guides/Intermediate/YouandData.md
   - Reference:
     - Home: reference/home.md
     - Minecraft:

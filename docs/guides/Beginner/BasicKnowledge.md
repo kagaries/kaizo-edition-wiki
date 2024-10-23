@@ -4,9 +4,9 @@ Minecraft: Java Edition is built on Java, crazy I know, but has many systems tha
 
 ## Registries
 
-Minecraft uses a **Registry** System for things like mobs, blocks, items, mob effects, the works.
+Minecraft uses a **Registry** System for things like mobs, blocks, items, mob effects, etc.
 
-When you register something, it usually has an **ID** at the start, these IDs **cannot** be the same name as another in the same registry, **cannot** include special characters, and **cannot** include uppercase keys.
+When you register something, it usually has an **ID** at the start, these IDs **cannot** be the same name as another in the same registry, **cannot** include special characters (besides _), and **cannot** include uppercase keys.
 
 The extra info in the Registry is determined by the type of Registry it is (i.e. MobEffects have uuids and a new mob effect, mobs have a entity type builder, etc).
 

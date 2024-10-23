@@ -27,7 +27,7 @@ This creates and registers the new effect for us to use! The ```"name"``` is the
 
 The ```new MobEffect()``` part creates the effect itself, the ```MobEffectCategory``` within the ```new MobEffect()``` determines if its on the top row (BENEFICIAL) or bottom row (NEUTRAL/HARMFUL), the ```3402751``` is just the color in decimal.
 
-From there you can start the game, and give yourself the effect! One thing you will notice is the ```effect.minecraft.name``` rather then ```name``` for the effect display name. We'll learn how to set up resources later.
+From there you can start the game, and give yourself the effect! One thing you will notice is the ```effect.minecraft.name``` rather then ```name``` for the effect display name. You can learn how to set up resources [here](../Beginner/Resources.md).
 
 ### Attributes
 

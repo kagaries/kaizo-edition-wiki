@@ -2,7 +2,7 @@
 
 Minecraft uses a "resources" folder for stuff like data and assets.
 
-If you remember from Getting Started where the MobEffect you created didn't have a tranlatable (a string that determines what text says), or an icon, this is why.
+If you remember from [Getting Started](../Basics/FirstModification.md) where the MobEffect you created didn't have a tranlatable (a string that determines what text says), or an icon, this is why.
 
 ## Adding Resources
 
