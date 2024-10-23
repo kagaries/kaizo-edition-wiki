@@ -6,7 +6,7 @@ If you remember from Getting Started where the MobEffect you created didn't have
 
 ## Adding Resources
 
-Adding resources is a fairly easy task. First, create a **resources** folder within the **main** folder. This is where the resources will be indexed and used from, as well as compile with as well.
+Adding resources is a fairly easy task. First, create a **resources** folder within the **main** folder. This is where the resources will be indexed and used from, as well as compile with.
 
 You'll need **ALL** of the base Minecraft assets within the folder as well, which you can get from [**here**](https://mcasset.cloud/1.20.2/).
 
