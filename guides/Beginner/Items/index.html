@@ -710,6 +710,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#tiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tiers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tiers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-tier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a Tier
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-textures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Textures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Closing
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8125,6 +8167,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#tiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tiers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tiers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-tier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a Tier
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-textures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Textures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Closing
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8220,7 +8304,44 @@ This is used when clicking RMB.
 <p>Now just add <code>new Item.Properties()</code> and the item will be finished:</p>
 <div class="language-java highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">Item</span><span class="w"> </span><span class="n">TEST</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">registerItem</span><span class="p">(</span><span class="s">&quot;test&quot;</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">SwordItem</span><span class="p">(</span><span class="n">Tiers</span><span class="p">.</span><span class="na">GOLD</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mf">1.5f</span><span class="p">,</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Item</span><span class="p">.</span><span class="na">Properties</span><span class="p">()))</span>
 </span></code></pre></div>
-<p>Just follow how to create the item model above and now it should work!</p>
+<p>Just follow how to create the item model above (with tools its recommended to use <code>"minecraft:item/handheld"</code> rather then generated) and now it should work!</p>
+<h2 id="tiers">Tiers</h2>
+<p>As said above, tiers are a enumeration that determine the stats of an item. Now you get to learn how to create your own!</p>
+<h3 id="creating-a-tier">Creating a Tier</h3>
+<p>Starting off, head to the <strong>Tiers</strong> class and there you'll see some tiers already defined. A tier is made up of mining level, durability, mining speed, damage, enchantment value, and repair ingredient.</p>
+<p>Let's start off but defining the name of the tier we want:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="n">NETHERITE</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mi">2031</span><span class="p">,</span><span class="w"> </span><span class="mf">9.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">4.0F</span><span class="p">,</span><span class="w"> </span><span class="mi">15</span><span class="p">,</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">Ingredient</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">Items</span><span class="p">.</span><span class="na">NETHERITE_INGOT</span><span class="p">);</span>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="p">}),</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="n">EMERALD</span><span class="p">();</span>
+</span></code></pre></div>
+<p>Now with that we can start defining the values the items given the tier will use, first we start off with the mining level:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="n">EMERALD</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+</span></code></pre></div>
+<p>Next is the durability, we can just set it to 1024:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="n">EMERALD</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">1024</span><span class="p">);</span>
+</span></code></pre></div>
+<p>Now for the mining speed:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="n">EMERALD</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">1024</span><span class="p">,</span><span class="w"> </span><span class="mf">8.0F</span><span class="p">);</span>
+</span></code></pre></div>
+<p>The mining speed is a float, make sure you don't forget that.</p>
+<p>For the attack damage, we can just have 10.0F:</p>
+<p><div class="language-java highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="n">EMERALD</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">1024</span><span class="p">,</span><span class="w"> </span><span class="mf">8.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">10.0F</span><span class="p">);</span>
+</span></code></pre></div>
+Now for the final 2 things, the second to last is the enchantmentValue:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="n">EMERALD</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">1024</span><span class="p">,</span><span class="w"> </span><span class="mf">8.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">10.0F</span><span class="p">,</span><span class="w"> </span><span class="mi">23</span><span class="p">);</span>
+</span></code></pre></div>
+<p>This just determines the chance for better enchants, and the cost of them.</p>
+<p>Finally, we set the repair material, this is just the material that is used when wanting to repair it in an anvil.</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="n">EMERALD</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">1024</span><span class="p">,</span><span class="w"> </span><span class="mf">8.0F</span><span class="p">,</span><span class="w"> </span><span class="mf">10.0F</span><span class="p">,</span><span class="w"> </span><span class="mi">23</span><span class="p">,</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">Ingredient</span><span class="p">.</span><span class="na">of</span><span class="p">(</span><span class="n">Items</span><span class="p">.</span><span class="na">EMERALD</span><span class="p">);</span>
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="p">});</span>
+</span></code></pre></div>
+<p>To use it, just replace <code>Tiers.GOLD</code> with <code>Tiers.EMERALD</code>.</p>
+<h2 id="custom-textures">Custom Textures</h2>
+<p>If you followed the <a href="../Resources/">Resources</a> guide from before, all you'll need to do to add a texture is go to <code>assets/minecraft/textures/items</code> and add the texture there, after that, just replace <code>"layer0": "minecraft:item/acacia_boat"</code> with <code>"layer0": "minecraft:item/TEXTURE_NAME"</code> and it should work.</p>
+<h2 id="closing">Closing</h2>
+<p>Good job! You now know how to add fairly simple items to Minecraft.</p>
 
 
 
