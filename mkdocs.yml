@@ -24,3 +24,11 @@ nav:
         - Beginner:
           - Basic Knowledge: guides/Beginner/BasicKnowledge.md
           - Resources: guides/Beginner/Resources.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
