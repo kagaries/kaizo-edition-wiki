@@ -6,15 +6,15 @@ If you remember from Getting Started where the MobEffect you created didn't have
 
 ## Adding Resources
 
-Adding resources is a fairly easy task. First, create a "resources" folder within the "main" folder. This is where the resources will be indexed and used from, as well as compile with as well.
+Adding resources is a fairly easy task. First, create a **resources** folder within the **main** folder. This is where the resources will be indexed and used from, as well as compile with as well.
 
-You'll need all of the base Minecraft assets within the folder as well, which you can get from [**here**](https://mcasset.cloud/1.20.2/).
+You'll need **ALL** of the base Minecraft assets within the folder as well, which you can get from [**here**](https://mcasset.cloud/1.20.2/).
 
 From here you can start adding everything you need!
 
 ### Adding a Translatable
 
-When you see something like ```effect.minecraft.name```, it means that string doesn't have a translatable within it's lang file.
+When you see something like ```effect.minecraft.name```, it means that string **doesn't** have a translatable within it's lang file.
 
 **Lang files** are files when have translations for any kind of text specified to have one.
 

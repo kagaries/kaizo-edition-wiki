@@ -12,4 +12,12 @@
          <loc>https://mydomain.org/mysite/guides/Basics/FirstModification/</loc>
          <lastmod>2024-10-22</lastmod>
     </url>
+    <url>
+         <loc>https://mydomain.org/mysite/guides/Beginner/BasicKnowledge/</loc>
+         <lastmod>2024-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/guides/Beginner/Resources/</loc>
+         <lastmod>2024-10-22</lastmod>
+    </url>
 </urlset>
