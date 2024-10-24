@@ -1,3 +1,11 @@
+<head>
+<meta property="og:title" content="MCPReborn Wiki" />
+<meta content="A resource to help others get around Minecraft's code." property="og:description" />
+<meta property="og:type" content="website" />
+<meta content="#43B581" data-react-helmet="true" name="theme-color" />
+<meta property="og:url" content="https://archerv123456.github.io/MCPRWiki/" />
+</head>
+
 # Your First Modification
 
 Before starting it's recommended that you have a basic knowledge of Java (classes, variables, importing, etc).

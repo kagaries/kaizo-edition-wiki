@@ -1,3 +1,11 @@
+<head>
+<meta property="og:title" content="MCPReborn Wiki" />
+<meta content="A resource to help others get around Minecraft's code." property="og:description" />
+<meta property="og:type" content="website" />
+<meta content="#43B581" data-react-helmet="true" name="theme-color" />
+<meta property="og:url" content="https://archerv123456.github.io/MCPRWiki/" />
+</head>
+
 # Data and You
 
 Welcome to the first Intermediate tutorial, before we start, make sure you have your resources folder set up, if you do not you can go [here](../Beginner/Resources.md) for more info.
