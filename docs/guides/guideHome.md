@@ -10,4 +10,7 @@
 
 This will teach you how to do a variaty of things from simple MobEffects, to creating new mobs and more.
 
+**THIS WILL NOT TEACH YOU HOW TO MAKE A CLIENT FOR HACKING.**
+**IF YOU WANT THAT, YOU'RE ON YOUR OWN.**
+
 It's recommended that you start at Getting Started if you don't know how to get started yet.

@@ -10,7 +10,7 @@
 
 Here you can find guides and resources to help you get started with Minecraft Coder Pack Reborn!
 
-This is my first wiki ever, so its probably very lack luster and clunky.
+This is my (@kagaries) first wiki ever, so it's probably very lack luster and clunky.
 
 <div class="grid cards" markdown>
 
