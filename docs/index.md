@@ -23,7 +23,21 @@ This is my (@kagaries) first wiki ever, so it's probably very lack luster and cl
 
     1.  This part of the wiki is in heavy development, and lacks many things currently.
 
-    [Getting started](./guides/Basics/FirstModification.md)
+    ---
+
+    [Getting started](./guides/Basics/FirstModification.md) | [Basic Knowledge](./guides/Beginner/BasicKnowledge.md)
+
+-   __Discord__
+
+    ---
+
+    Check out the discord to suggest stuff or talk with others about MCPReborn Wiki!
+
+    **YOU MUST BE 13+ YEARS OLD**
+
+    ---
+
+    [Server Invite](https://discord.gg/dcRBF3Rqsg)
 
 -   __Reference__
 
@@ -32,7 +46,18 @@ This is my (@kagaries) first wiki ever, so it's probably very lack luster and cl
     Find every function of every class at a glance!(1)
     { .annotate }
 
-    1.  This part of the wiki is in heavy development, and lacks many things currently.
+    1.  This part of the wiki is in currently unavailable.
 
-    [Reference](./reference/home.md)
+<!--    [Reference](./) -->
+
+-   __Kaizo Edition__
+
+    ---
+
+    This is more of a personal project, but showcases some of what you could do with MCPReborn.
+
+    ---
+
+    [Github](https://github.com/archerv123456/kaizo-editon-public) | [Latest Release](https://github.com/archerv123456/kaizo-editon-public/releases/latest)
+
 </div>
