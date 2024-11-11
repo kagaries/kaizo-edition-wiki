@@ -1,6 +1,6 @@
-site_name: MCPReborn Wiki
-site_url: https://archerv123456.github.io/MCPRWiki/
-repo_url: https://github.com/archerv123456/MCPRWiki
+site_name: Kaizo Edition Wiki
+site_url: https://kagaries.github.io/kaizo-edition-wiki/
+repo_url: https://github.com/kagaries/kaizo-edition-wiki
 extra_css:
   - css/index.css
 theme:
