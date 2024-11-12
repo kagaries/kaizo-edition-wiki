@@ -19,6 +19,8 @@ nav:
   - Home: 
     - Home: index.md
     - General:
+      - Mechanics:
+        - Thirst: general/mechanics/thirst.md
       - Texts:
         - en_us: general/text/en_us.md
       - UI:
