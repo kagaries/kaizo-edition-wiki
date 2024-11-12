@@ -18,11 +18,14 @@ theme:
 nav:
   - Home: 
     - Home: index.md
+    - General:
+      - Texts:
+        - en_us: general/text/en_us.md
+      - UI:
+        - UIType: general/ui/uitype.md
     - Mobs:
       - Monsters:
         - Zombie: mobs/hostile/Zombie.md
-      - Animals:
-        - Cow: mobs/passive/Cow.md
   - Contact: contact.md
 markdown_extensions:
   - pymdownx.highlight:
